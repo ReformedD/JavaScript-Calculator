@@ -1,0 +1,54 @@
+
+
+<!--
+ CSIS 1280 Lab 7 
+
+Author: Daymon Ghieuw
+Date: 2021-04-03
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/css_lab7.css" rel="stylesheet">
+        <meta name="author" content="RG">
+        <meta charset="utf-8">
+        <script src="lab7js.js"></script>
+    </head>
+    <body>
+        <header>
+            <h3>Lab 7: JavaScript Arithmetic Operator</h3>
+        </header>
+        <section>
+            <form id="ArithmeticCal" action='' method='GET'>
+             <fieldset>
+                 <legend>My Calculator</legend>
+                <textarea name="output" id="textbox" rows="2" cols="20"></textarea>
+             </fieldset>
+
+             <fieldset>
+                <legend>Input</legend>
+            <div id="content"> 
+            <label>
+                <h1>Operands:</h1>
+                <input  type="text" name="operand1" id="inp1"/>
+                <input  type="text" name="operand2" id="inp2"/><br>
+            </label>
+        </div>
+
+           <div id="content2">
+            <label>
+                <h2 style="display:inline;">Operators:</h2>
+                <input type="button" onclick="addBy();" value="+">
+                <input type="button" onclick="multiplyBy();" value="&times;">
+                <input type="button" onclick="divideBy();" value=":">
+                <input type="button" onclick="clear1();" value="Clear">
+            </label>
+            </div>
+        
+        </fieldset>
+            </form>
+        </section>
+    </body>
+</html>

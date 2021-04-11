@@ -1,0 +1,67 @@
+
+
+/*
+ CSIS 1280 Lab 7 
+
+Author: Daymon Ghieuw
+Date: 2021-04-03
+
+*/
+
+
+/* Headings & input size*/
+h1 {
+    font-size: 0.9rem;
+    float: left;
+}
+
+h2 {
+    font-size: 0.9rem;
+    margin-right: 100px;
+}
+
+input#inp1{
+    width: 45px;
+    margin-left: 55px;
+}
+
+input#inp2 {
+    width: 45px;
+    margin-left: 130px;
+    
+}
+/* Operand & Operators */
+#content input {
+    display: inline;
+    margin: 10px 15px 1px 1px;
+}
+
+#content2 input  {
+margin-left: 10px;
+
+
+}
+
+.operator {
+    font-size: 0.7rem;
+}
+
+/* My Calculator*/
+#textbox{
+    padding: 25px 30px;
+}
+
+fieldset{
+    width: 220px;
+    padding: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color:turquoise;
+}
+/*Title for boxes*/
+legend{
+    background-color:black;
+    padding: 0 10px;
+    color: white;
+}
